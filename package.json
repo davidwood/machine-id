@@ -1,0 +1,29 @@
+{
+  "name": "machine-id",
+  "description": "Derive a unique machine ID from CPU, memory, and network information",
+  "keywords": ["unique machine identifier"],
+  "version": "1.0.0",
+  "author": "David Wood <bitprobe@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidwood/machine-id.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/davidwood/machine-id/blob/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.2.10",
+    "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "istanbul test _mocha -- --check-leaks"
+  }
+}
